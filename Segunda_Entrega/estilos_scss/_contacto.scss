@@ -1,0 +1,47 @@
+.formulario{
+    height: 550px;
+    width: 850px;
+    padding: 20px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.932);
+    display: flex;
+    justify-content:space-evenly;
+    flex-flow: column;
+    align-items:center;
+    margin-bottom: 50px;
+    
+}
+@media (max-width: 857px) {
+    .formulario {
+        height: 500px;
+        width: 750px;
+        font-size: 0.7em;
+    }
+}
+@media (max-width: 769px) {
+    .formulario {
+        height: 650px;
+        width: 520px;
+        font-size: 0.7em;
+        margin-top: 50px;
+    }
+}    
+@media (max-width: 575px) {
+    .formulario {
+        height: 680px;
+        width: 450px;
+        font-size: 0.7em;
+        margin: 30px 0px;
+    }
+}
+
+@media(max-width: 517px){
+    .formulario{
+        height: 680px;
+        width: 400px;
+    }
+    footer{
+        height: 55px;
+        font-size: 100%;
+    }
+}
